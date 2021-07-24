@@ -1,438 +1,913 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laponie International Ptd Ltd | CJ Michael Ptd Ltd</title>
 
-<!---Bootstrap CSS--->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
-rel="stylesheet"
-integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
-crossorigin="anonymous"
-/>
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Hola</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!---Bootstrap Icon-->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<!---CSS--->
-<link rel="stylesheet" href="../1-Homepage/style.css" type="text/css">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
 </head>
-<body>
 
+<body id="top">
 
-<!---HOMEPAGE/LANDING---->
-<!------------------------------------------------------------------------------------------------------->
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-
-
-<!---1. Hamburger Menu--->
-<div id="hamburgerMenu"  class="container-flex menu d-flex align-items-center justify-content-center">
-
-  <!---x close icon-->
-  <div class="close">
-    <i class="bi bi-x "></i>
-  </div><!---end of x close icon--->
-  
-    <!---menu--->
-    <div class="row text-center box mlinked ">
-      <div col="col-lg-12 col-md-12 col-sm-12 ">
-
-      <!--links to move-->
-      <ul>
-        <li><a href="../1-Homepage/index.html">Homepage</a></li>
-        <li><a href="../2. About/index.html">About</a></li>
-        <li><a href="../3. Brands/index.html">Brands</a></li>
-        <li><a href="../4. Contact Us/index.html">Contact</a></li>
-      </ul>
-
-      </div>
-    </div><!---end of menu--->
-
-</div><!---end of 1. Hamburger Menu-->
-
-
-
-<!------------------------------------------------------------------------------------------------------->
-
-
-
-<!----** NOTE TO SELF: me is margin right, pe is padding right, ms is margin left, ps is padding left mt is top, mb is bottom **-->
-
-
-
-<!---2. Navigator Bar-->
-<nav class="navbar navbar-expand-md-12 container-fluid">
-
-  <!---navbar container--->
-  <div class="container-style container-fluid pe-3 ps-3">
-
-    <!---hamburger icon--->
-    <div id="hamburger">
-      <i class="bi bi-list icons"></i>
-    </div> <!---end of hamburger icon--->
-
-    <!---companylogo-->
-    <a class="navbar-brand" href="#"> <img src="../Untitled-1-01.png" alt="brand-logo responsive image" class="img-fluid headerphoto"></a>
-    
-      <!---icons-->
-      <div class="">
-        <i id="searchIcon" class="bi bi-search icons"></i>
-        <i id="locationIcon" class="bi bi-geo-alt-fill icons"></i>
-      </div><!---end of search icon-->
-
-  </div><!--end of navbar container-->
-
-</nav><!--end of 2. Navigator Bar-->
-
-
-<!---3. Form For Search Bar-->
-<div class="container-flex locationBar">
-
-  <!--form-->
-  <div class="row">
-    <div class="col-md-6 offset-md-4 col-sm-8 offset-sm-6">
-      <div class="input-group input-group-sm mb-3 locationdrop">
-
-        10 Arumugam Rd, #08-02 A LTC Building, Singapore 409957
-
-      </div>
-    </div>
-  </div><!---end of form--->
-
-</div><!---end of 3. Form For Search Bar--->
-
-
-
-
-
-<!------------------------------------------------------------------------------------------------------->
-
-
-
-
-<!---3. Form For Search Bar-->
-<div class="container-flex searchBar">
-
-    <!--form-->
-    <div class="row">
-      <div class="col-md-4 offset-md-8 col-sm-7 offset-sm-5">
-        <div class="input-group input-group-sm mb-3">
-
-          <input type="text" class="form-control searchBars" aria-label="Small" aria-describedby="inputGroup-sizing-sm">
-        
-        </div>
-      </div>
-    </div><!---end of form--->
-
-</div><!---end of 3. Form For Search Bar--->
-
-
-
-
-<!------------------------------------------------------------------------------------------------------->
-
-
-
-
-<!---4. Slideshow Header--->
-<div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="200">
-  <div class="carousel-indicators">
-
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" data-interval="200" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" data-interval="200" class="active" aria-current="true" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" data-interval="200" class="active" aria-current="true" aria-label="Slide 3"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" data-interval="200" class="active" aria-current="true" aria-label="Slide 1"></button>
-  </div>
-
-  <div class="carousel-inner">
-
-    <div class="carousel-item active">
-      <div class="row d-flex justify-content-evenly slideshow">
-      
-        <div class="col-md-6 col-sm-6  align-items-center here">
-          <p id="headertext">Beautiful Skin 
-          </br>Starts From Within</p>
-          <p id="headercaption">Our Mission & Values Speak To Our Customers</p>
-          <button type="button" class="btn btn-outline-dark button d-flex justify-content-center">Discover</button>
+        <div class="header-logo">
+            <a class="site-logo" href="index.html"><img src="images/logo.png" alt="Homepage"></a>
         </div>
 
-        <div class="col-md-6 col-sm-6 d-flex blah">
-          <img src="../1-01.png" alt="product-picture Responsive image" class="img-fluid productm" width="d-flex 0%">
-        </div>
-
-      </div>
-    </div>
-
-
-    <div class="carousel-item">
-      <div class="row d-flex justify-content-evenly slideshow">
-      
-        <div class="col-md-6 col-sm-6  align-items-center here">
-          <p id="headertext">Be A Stockist</p>
-          <p id="headercaption">Get In Touch With Us</p>
-          <button type="button" class="btn btn-outline-dark button d-flex justify-content-center">Discover</button>
-        </div>
-
-        <div class="col-md-6 col-sm-6 d-flex">
-          <img src="../1-01.png" alt="product-picture Responsive image" class="img-fluid productm" width="d-flex 0%">
-        </div>
-
-      </div>
-    </div>
-
-
-    <div class="carousel-item">
-      <div class="row d-flex justify-content-evenly slideshow">
-      
-        <div class="col-md-6 col-sm-6  align-items-center here">
-          <p id="headertext">Our Founder</p>
-          <p id="headercaption">Skincare For Confidence</p>
-          <button type="button" class="btn btn-outline-dark button d-flex justify-content-center">Discover</button>
-        </div>
-
-        <div class="col-md-6 col-sm-6 d-flex blah">
-          <img src="../1-01.png" alt="product-picture Responsive image" class="img-fluid productm" width="d-flex 0%">
-        </div>
-
-      </div>
-    </div>
-
-  </div>
-
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
-</div>
-
-
-
-<!------------------------------------------------------------------------------------------------------->
-
-
-
-<!---3. Latest Launch--->
-
-<!---header for latest launch--->
-<div class="container-fluid align-items-center justify-content-center" max-width= "100%">
-
-    <!---text header--->
-    <div class="row text-center laa">
-      <div class="col-md-12 col-sm-12 latestLaunch text-center">
-        Latest Launch
-      </div>
-    </div><!---end of text header--->
-
-</div><!---end of header for latest launch-->
-
-
-
-
-<!---container for empty box and image box-->
-<div class="container-fluid d-flex">
-  <div class="row d-flex justify-content-evenly">
-
-      <!---empty box--->
-    <div class="col-md-2 col-sm-2 align-self-start emptyBox">
-      <!--inside empty just color-->
-    </div><!--end of empty box-->
-
-      <!---image box--->
-      <div class="col-md-4 col-sm-4 align-self-center d-flex imslaunch">
-        <img src="../2-01.png" alt="product-picture Responsive image" class="img-fluid" width="d-flex 60%">
-      </div><!---image box--->
-
-        <!---caption--->
-        <div class="col-md-2 col-sm-2 align-self-end d-flex brandcontainer">
-
-          <p class="captionbrand">Maria Galland</p>
-          <p class="captionheader">LUMIN'ECLAT</p>
-        
-          <!--discover button-->
-          <button type="button" class="btn btn-outline-dark button d-flex justify-content-center captioninsidesquare">Discover</button>
-    
-        </div><!--end of caption-->
-
-  </div>
-
-</div><!---end of container for empty box and image box--->
-
-
-<!---breakline-->
-<div class="row line">
-<hr>
-</div><!--- end of breakline-->
-
-
-<!--------------------------------------------------------------------------------------------------------->
-
-
-
-<!----- 4. Our Brands ----->
-<!--header our brands-->
-<div class="container-fluid align-items-center justify-content-center" max-width= "100%">
-
-  <div class="row text-center">
-    <div class="col-md-12 col-sm-12 ourbrands text-center">
-      Our Brands
-    </div>
-  </div>
-
-</div><!---end of header--->
-
-<!--- three separate contents-->
-<div class="container-fluid align-items-center justify-content-center contenttriple" max-width= "100%">
-
-  <div class="row">
-
-      <!---content 1--->
-      <div class="col-sm-4 contentone align-self-start">
-
-        <!---image for content 1--->
-        <img src="../2-02.png" class="rounded float-left img-fluid" alt="...">
-          <p></p>
-
-        <!---brand text for content 1-->
-        <p class="smalltext">Maria Galland</p>
-        <p class="evensmallertext">Lorem ipsum dolor sit amet</p>
-          <p></p>
-
-        <!----discover button-->
-        <button type="button" class="btn">Read More<i class="bi bi-caret-right arrowright"></i></button>
-
-      </div><!---end of content 1--->
-
-
-
-        <!---content 2--->
-        <div class="col-sm-4 contenttwo">
-
-          <!---image for content 2--->
-          <img src="../2-03.png" class="img-fluid" alt="image" width="d-flex 60%">
-            <p></p>
-
-          <!---brand text for content 2--->
-          <p class="smalltext">Inspira</p>
-          <p class="evensmallertext">Lorem ipsum dolor sit amet</p>
-            <p></p>
-
-          <!---discover button--->
-          <button type="button" class="btn">Read More<i class="bi bi-caret-right arrowright"></i></button>
-
-        </div><!---end of content 2--->
-
-
-          <!---content 3--->
-          <div class="col-sm-4 contentthree">
-
-            <!---image for content 3--->
-            <img src="../2-04.png" class="float-right rounded img-fluid" alt="...">
-              <p></p>
-            
-            <!---brand text for content 3--->
-            <p class="smalltext">Fillmed</p>
-            <p class="evensmallertext">Lorem ipsum dolor sit amet</p>
-              <p></p>
-
-            <!---discover button--->
-            <button type="button" class="btn">Read More<i class="bi bi-caret-right arrowright"></i></button>
-
-          </div>
-
-  </div>
-
-</div><!---end of 3 separate contents-->
-<br>
-<!---end of our brands---->
-
-
-
-
-
-
-
-<!--- 5. Footer -->
-
-<!--breakline-->
-<div class="linetwo">
-</div><!--end of breakline-->
-
-<!--footer container-->
-<div class="container-fluid align-items-center justify-content-center" max-width= "100%">
-
-  <div class="row footerrow">
-
-    <!---logo1--->
-    <div class="col-sm-4 align-self-start companylogocj">
-      <img src="../3-02.png" alt="logo" class="img-fluid float-left" max-width="d-flex 60%">
-      <p><i class="bi bi-facebook fb"></i><i class="bi bi-telephone-fill tel"></i></p>
-    <div><!---end of logo-->
-
-
-      <!---links2--->
-        <div class="col-sm-5 ctnfooterlinks">
-          <p><a href="../1-Homepage/index.html">Homepage</a></br>
-          <a href="../2. About/index.html">About Us</a></br>
-          <a href="../4. Contact Us/index.html">Contact Us</a></br>
-          <a href="..">Privacy Policy</a></br>
-          <a href="..">Terms & Conditions</a></br></p>
-        </div><!---end of links--->
-
-
-          <!---stockist forms3--->
-            
-            <div class="col-sm-3 stockist ctnstockist">
-              <p class="stockisttext">Be A Stockist!</p>
-              <p id="text2">Thinking of introducing our brands into your beauty premises? Find out more on how we can help you in this new journey with us!</p>
-              <input class="form-control form-control-sm text-center" type="text" placeholder="Email Address"></br>
-              <button type="button" class="btn btn-outline-dark signup">Sign Up</button></br>
-            </div><!--end of stockist forms-->
-  
-  </div>
-</div><!---end of footer container--->
-
-                <!---copyright--->
-              <div class="container-fluid align-items-center justify-content-center">
-                  <div class="row">
-                  <div class="col-md-12 text-center stockist">
-                    <p class="copyright text-center">© 2021 LAPONIE PTE LTD SINGAPORE. All right reserved | 10 Arumugam Rd, #08-02 A LTC Building, Singapore 409957</p>
-                  </div>
+        <nav class="header-nav-wrap">
+            <ul class="header-nav">
+                <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
+                <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li>
+                <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+
+    </header> <!-- end s-header -->
+
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hello There</h3>
+
+                <h1>
+                    I am Edna Tan. <br>
+                    I am a graphic & UI/UX <br>
+                    designer based in Singapore.
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="#works" class="smoothscroll btn btn--stroke">
+                        Latest Projects
+                    </a>
+                    <a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Me
+                    </a>
                 </div>
-              </div><!---end of copyright--->
 
-             
-<!---end of footer--->
+                <div class="home-content__scroll">
+                    <a href="#about" class="scroll-link smoothscroll">
+                        <span>Scroll Down</span>
+                    </a>
+                </div>
 
-<button onclick="scrollTopAnimated()" class="scroll">
-  <i class="bi bi-arrow-up"></i>
-</button>
-</div>
+            </div>
 
-<!---Bootstrap Jquery-->
-  <script
-    src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-    crossorigin="anonymous">
-  </script>
+        </div> <!-- end home-content -->
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
-    crossorigin="anonymous"
-  ></script>
+        <ul class="home-social">
+            <li>
+                <a href="#"><i class="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="#"><i class="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            
+            <li>
+                <a href="#"><i class="im im-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
 
-  
+    </section> <!-- end s-home -->
 
-<!---JS--->
-  <script src="../1-homepage/script.js"></script>
-  
+
+    <!-- about
+    ================================================== -->
+    <section id="about" class="s-about target-section">
+        
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>About</h3>
+                <h1>Hi, I'm Edna!</h1>
+                <p class="lead">Graphic & Web Designer
+ednatans@hotmail.com
++65 96806283</div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>Howdy!</h3>
+
+                <p>My name is Edna. Having graduated with a Diploma In Fashion Design in 2017,
+I took the opportunity to venture into the fashion industry for a few months while
+gaining as much experience as a fashion merchandising coordinator. I eventually
+ended up taking a leap of faith to join Singapore Airlines as a Flight Stewardess.</p>
+
+                <p>
+                Venturing around the world has broaden my design perspective through
+experiencing many dierent cultures, art and wondrous discoveries. I would like to use
+the expetise that I have learnt from both trades and my insights from my many travels
+around the world to make a positive impact on the design industry.</p>
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+
+                <ul class="skill-bars">
+                    <li>
+                    <div class="progress percent90"><span>75%</span></div>
+                    <strong>HTML5</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent85"><span>75%</span></div>
+                    <strong>CSS</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent70"><span>60%</span></div>
+                    <strong>JQuery</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent95"><span>50%</span></div>
+                    <strong>PHP</strong>
+                    </li>
+                    <li>
+                    <div class="progress percent75"><span>90%</span></div>
+                    <strong>Adobe Creative Suite</strong>
+                    </li>   
+                    
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full left">
+                <a href="#0" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+            <div class="col-six tab-full right">
+                <a href="#0" class="btn full-width">Hire Me Now</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->
+
+        <div class="row about-content about-content--timeline">
+
+            <div class="col-full text-center">
+                <h3>My Work Experience.</h3>
+            </div>
+
+            <div class="col-six tab-full left">
+                <div class="timeline">
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">AUG 2020 - PRESENT</p>
+                            <h3>LAPONIE PTE LTD</h3>
+                            <h5>GRAPHIC DESIGN & MARKETING EXECUTIVE</h5>
+                        </div>
+                        <div class="timeline__desc">
+                            <p>Assist the Marketing & Sales Manager in all marketing
+aspects work to meet deadline.
+Designing and creating print ads, product catalogues
+and other point-of-sales materials.
+Work closely with the respective managers to prepare
+the props and attractive displays for designated brands.
+Hands-on in house work like mock-ups and liaise with
+suppliers and printers.
+Collaborating with FirstCom on designing the website for
+Sugar, a hair removal e-commerce site.</div>
+                    </div> <!-- end timeline__block -->
+
+                    <div class="timeline__block">
+                        <div class="timeline__bullet"></div>
+                        <div class="timeline__header">
+                            <p class="timeline__timeframe">JUN 2018 - MAR 2020</p>
+                            <h3>SINGAPORE AIRLINES</h3>
+                            <h5>FLIGHT STEWARDESS</h5>
+                        </div>
+                        <div class="timeline__desc">	
+                            <p>Experienced professional in customer service, conflict
+resolution tactics and safety procedures.
+Trained to deal with security and emergency situations
+which may arise and administering first aid to passengers
+when medical attention is required.
+Able to work together in a team to ensure that all
+passengers are looked after and comfortable. Having
+the ability to deal with a range of people in a polite and
+firm way in a confined working environment.
+Equipped with wine handling, food handling skills and
+product knowledge to provide a better customer
+experience onboard.</div>
+                    </div> <!-- end timeline__block -->
+
+                </div> <!-- end timeline -->
+            </div> <!-- end left -->
+
+            
+
+        </div> <!-- end about-content timeline -->
+
+    </section> <!-- end about -->
+    
+
+    {% comment %} <!-- works
+    ================================================== -->
+    <section id="works" class="s-works target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Portfolio</h3>
+                <h1>See My Latest Projects.</h1>
+                
+                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            </div>
+        </div>
+
+        <div class="row masonry-wrap">
+            <div class="masonry">
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                <img src="images/portfolio/beetle.jpg" 
+                                     srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                The Beetle
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-lighthouse.jpg" class="thumb-link" title="Lighthouse" data-size="1050x700">
+                                <img src="images/portfolio/lighthouse.jpg" 
+                                     srcset="images/portfolio/lighthouse.jpg 1x, images/portfolio/lighthouse@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lighthouse
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <div class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </div>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-salad.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/salad.jpg" 
+                                     srcset="images/portfolio/salad.jpg 1x, images/portfolio/salad@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Salad
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                     srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Woodcraft
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-skaterboy.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                     srcset="images/portfolio/skaterboy.jpg 1x, images/portfolio/skaterboy@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Skaterboy
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Development
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-liberty.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/liberty.jpg"
+                                     srcset="images/portfolio/liberty.jpg 1x, images/portfolio/liberty@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Liberty
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-minimalismo.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/minimalismo.jpg"
+                                     srcset="images/portfolio/minimalismo.jpg 1x, images/portfolio/minimalismo@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Minimalismo
+                            </h3>
+                            <p class="item-folio__cat">
+                                Web Design
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+                <div class="masonry__brick">
+                    <div class="item-folio">
+
+                        <div class="item-folio__thumb">
+                            <a href="images/portfolio/gallery/g-shutterbug.jpg" class="thumb-link" data-size="1050x700">
+                                <img src="images/portfolio/shutterbug.jpg"
+                                     srcset="images/portfolio/shutterbug.jpg 1x, images/portfolio/shutterbug@2x.jpg 2x" alt="">
+                                <span class="shadow-overlay"></span>
+                            </a>
+                        </div>
+
+                        <div class="item-folio__text">
+                            <h3 class="item-folio__title">
+                                Lady Shutterbug
+                            </h3>
+                            <p class="item-folio__cat">
+                                Branding
+                            </p>
+                        </div>
+
+                        <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                            <i class="im im-link"></i>
+                        </a>
+
+                        <span class="item-folio__caption">
+                            <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                        </span>
+
+                    </div> <!-- end item-folio -->
+                </div> <!-- end masonry__brick -->
+
+            </div>
+        </div> <!-- end masonry -->
+
+    </section> <!-- end works --> {% endcomment %}
+
+
+
+    {% comment %} <!-- testimonials
+    ================================================== -->
+    <div class="s-testimonials">
+
+        <div class="overlay"></div>
+
+        <div class="row testimonials-header">
+            <div class="col-full">
+                <h1 class="h02">What People Say.</h1>
+            </div>
+        </div>
+
+        <div class="row testimonials">
+
+            <div class="col-full testimonials__slider">
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Qui ipsam temporibus quisquam velMaiores eos cumque distinctio nam accusantium ipsum. 
+                    Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.</p>
+                    <div class="testimonials__author h06">
+                        Tim Cook
+                        <span>CEO, Apple</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                    Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+                    <div class="testimonials__author h06">
+                        Sundar Pichai
+                        <span>CEO, Google</span>
+                    </div>
+                </div>
+
+                <div class="testimonials__slide">
+                    <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                    <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                    Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+                    <div class="testimonials__author h06">
+                        Satya Nadella
+                        <span>CEO, Microsoft</span>
+                    </div>
+                </div>
+                
+            </div> <!-- end testimonials__slider -->
+
+        </div> <!-- end testimonials -->
+
+    </div> <!-- end s-testimonials --> {% endcomment %}
+
+
+    <!-- blog
+    ================================================== -->
+    {% comment %} <section id="blog" class="s-blog target-section">
+
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full">
+                <h3>Journal</h3>
+                <h1>Latest From The Blog.</h1>
+                <p class="lead">Lorem ipsum Dolor adipisicing nostrud et aute. 
+                Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum 
+                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+            </div>
+        </div>
+
+        <div class="row blog-content">
+            <div class="col-full">
+
+                <div class="blog-list block-1-2 block-tab-full">
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 16, 2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">The 10 Golden Rules of Clean Simple Design.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        </p>
+
+                        <div class="blog-cat">
+                                <a href="blog.html">Branding</a><a href="blog.html">Design</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                                
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 15, 2017</a>
+                        </div>  
+                        
+                        <h2 class="h01"><a href="blog-single.html">Photography Can Improve Your Graphic Design.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh..
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Photography</a>
+                        </div>
+
+                        
+                    </article>
+                    <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 14, 2017</a>
+                        </div>
+
+                        <h2 class="h01"><a href="blog-single.html">Workspace Design Trends and Ideas.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh dolore irure esse Duis nulla sint.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Branding</a><a href="blog.html">Wordpress</a>
+                        </div>
+                    </article>
+                    <article class="col-block">
+                        
+                        <div class="blog-date">
+                            <a href="blog-single.html">Sept 12, 2017</a>
+                        </div>    
+                        <h2 class="h01"><a href="blog-single.html">Using Patterns in your Branding.</a></h2>
+                        <p>
+                        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Pellentesque in ipsum id orci porta dapibus. Donec sollicitudin molestie malesuada. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Cras ultricies ligula sed magna dictum porta. Sed porttitor lectus nibh.
+                        </p>
+
+                        <div class="blog-cat">
+                            <a href="blog.html">Design</a><a href="blog.html">Branding</a>
+                        </div>
+                    </article>
+                </div> <!-- end blog-list -->
+
+            </div> <!-- end col-full -->
+        </div> <!-- end blog-content -->
+
+    </section> <!-- end s-blog -->
+
+
+    {% comment %} <!-- s-cta
+    ================================================== --> {% endcomment %}
+    {% comment %} <section class="s-cta">
+        
+        <div class="row narrow cta">
+
+            <div class="col-full cta__content">
+
+                <h2 class="h01"><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Styleshout Recommends Dreamhost.</a></h2>
+
+                <p class="lead">
+                Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">DreamHost</a>.
+                Get <span>$50 off</span> when you sign up with the promocode <span>styleshout</span>.
+                </p>
+
+                <div class="cta__action">
+                    <a class="btn btn--primary btn--large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+                </div>	
+
+            </div>
+
+        </div> <!-- end cta -->
+        
+    </section>
+
+
+    <!-- s-stats {% endcomment %}
+    {% comment %} ================================================== --> {% endcomment %} {% endcomment %}
+    <section id="stats" class="s-stats">
+        <div class="row block-1-4 block-tab-1-2 block-mob-full stats">
+
+            <div class="col-block stats__col ">
+                <div class="stats__count">
+                    3
+                </div>
+                <h4>Awards Received</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    1000
+                </div>
+                <h4>Cups of Tea</h4>
+            </div>
+            <div class="col-block stats__col stats__col--highlight">
+                <div class="stats__upsign">
+                    <a href="#"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+                <div class="stats__count">
+                    1
+                </div>
+                <h4>Projects Completed</h4>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">
+                    2
+                </div>
+                <h4>Happy Clients</h4> 
+            </div>
+
+        </div>
+    </section> <!-- end s-stats -->
+
+
+    <!-- s-stats
+    ================================================== -->
+    <section id="contact" class="s-contact target-section">
+
+        <div class="overlay"></div>
+
+        <div class="row narrow section-intro">
+            <div class="col-full">
+                <h3>Contact</h3>
+                <h1>Say Hello.</h1>
+                
+                <p class="lead"></p>
+            </div>
+        </div>
+
+        <div class="row contact__main">
+            <div class="col-eight tab-full contact__form">
+                <form name="contactForm" id="contactForm" method="post" action="">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>
+
+                <!-- contact-warning -->
+                <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> 
+            
+                <!-- contact-success -->
+                <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>
+                        
+            </div>
+            <div class="col-four tab-full contact__infos">
+                <h4 class="h06">Phone</h4>
+                <p>Phone: (+65) 96806283<br>
+                
+                </p>
+
+                <h4 class="h06">Email</h4>
+                <p>ednatans@hotmail.com<br>
+                
+                </p>
+
+                
+            </div>
+
+        </div>
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+    <footer>
+        <div class="row">
+            <div class="col-full">
+
+                <div class="footer-logo">
+                    <a class="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage"></a>
+                </div>
+
+                <ul class="footer-social">
+                    <li><a href="#0">
+                        <i class="im im-facebook" aria-hidden="true"></i>
+                        <span>Facebook</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="im im-twitter" aria-hidden="true"></i>
+                        <span>Twitter</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="im im-instagram" aria-hidden="true"></i>
+                        <span>Instagram</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="im im-behance" aria-hidden="true"></i>
+                        <span>Behance</span>
+                    </a></li>
+                    <li><a href="#0">
+                        <i class="im im-pinterest" aria-hidden="true"></i>
+                        <span>Pinterest</span>
+                    </a></li>
+                </ul>
+                    
+            </div>
+        </div>
+
+        <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Hola 2017</span> 
+                    <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
+                </div>
+
+                <div class="go-top">
+                <a class="smoothscroll" title="Back to Top" href="#top"><i class="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> <!-- end footer-bottom -->
+
+    </footer> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div><!-- end photoSwipe background -->
+
+    <div id="preloader">
+        <div id="loader"></div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
 </body>
+
 </html>
